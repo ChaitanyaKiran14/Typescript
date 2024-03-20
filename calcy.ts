@@ -1,4 +1,4 @@
-function cal(val1: number, val2: number, type : string): number {
+function cal(val1: number, val2: number, type : "div"| "mul"| "sum"| "sub"): number {
   switch(type){
     case type = "div" :
       return val1/val2;
